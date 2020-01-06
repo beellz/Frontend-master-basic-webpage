@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+
+    margin: 35px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    /* background-color: yellow;  */
+    padding: 70px 20px 30px 20px;  
+    font-size: 35px;
+    font-family: 'Great Vibes', cursive;
+}
+
+.section1 {
+    display: flex;
+    background-color;
+    border: 1px solid black;
+   
+    height: 650px;
+    
+}
+.section1 div {
+    flex-grow: 0;
+}
+.section1 div:nth-child(2){
+    flex-grow: 4;
+}
+
+.section1-2 {
+    border:  1px solid grey;
+    border-width: 0px 2px 0px 2px;
+}
+
+.section1-2 img {
+    display: block;
+    margin: 0 20px;
+}
+
+
+.section1 h3 {
+    padding: 20px 10px;
+    font-size: 25px;
+   text-align: center;
+}
+
+.section1-1 p, .section1-2 p , .section1-3 p {
+    margin: 20px;
+    padding: 20px;
+}
+
+.section1-2 {
+    flex-grow: ;
+
+}
+
+
+
+.left-1 p {
+    padding: 20px;
+    font-size: 15px;
+}
+
+.left-1 h3 {
+    text-align: center;
+    font-size: 25px;
+}
+
+
+.right {
+    flex-grow: 2;
+}
+
+.section2 {
+    display: flex;
+    border: 2px solid grey;
+}
+
+.left-1 {
+    width: 550px;
+    border-right: 2px solid  grey;
+    margin-top: 20px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+.item1 {
+    background: plum;
+}
+.item2 {
+    background-color:yellow;
+}
+.item3 {
+    background-color :pink;
+}
+.item4 {
+    background-color :pink;
+}
+.item5 {
+    background-color :pink;
+}
