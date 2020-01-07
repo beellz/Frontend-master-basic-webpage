@@ -90,7 +90,7 @@ header{
     width: 550px;
     border-right: 2px solid grey;
     padding-top: 10px;
-    width: 25%;
+    width: 33.5%;
    
 }
 
@@ -127,6 +127,7 @@ nav li {
     justify-content: center;
     padding: 0;
     margin: 0;
+    width: 100%;
   }
   
   .site-section {
